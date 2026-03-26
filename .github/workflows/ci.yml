@@ -23,4 +23,4 @@ jobs:
         run: "echo This is my pipeline run trial 5"
 
       - name: pipeline break
-        run: exit 1
+        run: echo "This pipeline is fixed"
